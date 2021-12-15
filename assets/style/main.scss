@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+    .header {
+        background: #FFFFFF;
+
+        nav {
+            @media screen and (min-width: 768px) {
+                padding-top: 30px;
+            }
+
+            .get-shayna-container {
+                padding: 0px 20px;
+            }
+
+            @media (min-width: 992px) {
+                .get-shayna-container {
+                    padding: 0px 60px;
+                }
+            }   
+
+            a, a:hover {
+                color: #111F37 !important;
+            }  
+            
+            .navigation {
+                a {
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    
+                    color: #0F1C2D;
+                    
+                    opacity: 0.6;
+                }
+
+                    .active {
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    
+                    color: #101D2E !important;
+                }
+            }
+
+            .started {
+                border: 1px solid #7F31FF;
+                box-sizing: border-box;
+                border-radius: 50px; 
+                align-items: center;
+                padding: 12px 16px;  
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                /* identical to box height */
+                
+                
+                color: #7F31FF !important;        
+                @media screen and (max-width: 768px) {
+                    width: 100% !important;
+                }
+            }
+        }
+
+        .content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .headline {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 3rem;
+                line-height: 60px;
+                /* or 130% */
+                color: #1E2A39;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 2.25rem;
+                    line-height: 2.5rem;
+                }
+            }
+
+            .sub-headline {
+                margin-top: 24px;
+                font-family: 'Noto Sans' !important;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 160%;
+                /* or 32px */
+                
+                
+                color: #626A7F;
+            }
+
+            .btn-join {
+                @media screen and (max-width: 768px) {
+                    margin-top: 25px;
+                }
+                margin-top: 54px;
+                background: #7F31FF;
+                box-shadow: 0px 20px 40px rgba(132, 51, 170, 0.18);
+                border-radius: 50px;
+                padding: 20px 32px 20px 32px;
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+                
+                
+                color: #FFFFFF;
+            }
+
+            .partner {
+                margin-top: 25px;
+                margin-bottom: 24px;
+                font-family: 'Noto Sans' !important;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+                /* identical to box height, or 24px */
+                
+                text-align: center;
+                
+                color: #1E2A39;
+                
+                opacity: 0.6;
+                @media screen and (max-width: 768px) {
+                    font-size: 12px;
+                }
+            }
+
+            .partners {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 150%;
+                /* identical to box height, or 36px */
+                
+                letter-spacing: -0.02em;
+                
+                color: #1E2A39;
+                
+                opacity: 0.4;
+                margin-right: 60px;
+                @media screen and (max-width: 768px) {
+                    margin-right: 3px;
+                    margin-left: 3px;
+                    font-size: 22px;
+                    line-height: 2rem;
+                }
+            }
+
+            .mr-0 {
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    .benefits {        
+        padding-top: 100px;
+        padding-bottom: 100px;
+        @media screen and (max-width: 768px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .content {
+            .rectangle {
+                padding: 80px 20px;
+                max-width: 394px;
+                background: #8F00FF;
+                border-radius: 24px;
+
+                .headline {
+                    margin-top: 12px;
+                    margin-bottom: 24px;
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+                    
+                    text-align: center;
+                    
+                    color: #FFFFFF;
+                }
+
+                .sub-headline {
+                    margin-bottom: 24px;
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 28px;
+                    /* or 140% */
+                    
+                    text-align: center;
+                    
+                    color: #FFFFFF;
+                }
+
+                .btn-join {
+                    align-items: center;
+                    padding: 20px 32px;
+                    
+                    background: #FFFFFF;
+                    box-shadow: 0px 20px 40px rgba(132, 51, 170, 0.18);
+                    border-radius: 50px;
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 28px;
+                    /* identical to box height, or 140% */
+                    
+                    
+                    color: #8F00FF;
+                }
+            }
+
+            .title {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 44px;
+                /* identical to box height, or 122% */
+
+
+                color: #1E2A39;
+            }
+
+            .description {
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+                
+                
+                color: #1E2A39;
+            }
+        }
+    }
+
+    .talent {
+        padding-top: 55px;
+        padding-bottom: 55px;
+
+        .content {
+            .title {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 44px;
+                /* identical to box height, or 122% */
+                
+                
+                color: #1E2A39;
+            }
+
+            .sub-title {
+                margin-top: 24px;
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 160%;
+                /* or 32px */
+                
+                text-align: center;
+                
+                color: #626A7F;
+            }
+
+            .navigate {
+                overflow-x: auto;
+                white-space: nowrap;
+                margin-top: 26px;
+                padding-top: 10px;
+                margin-bottom: 40px;
+                padding-bottom: 10px;
+
+                button {
+                    align-items: center;
+                    padding: 12px 16px;
+                    
+                    background: #F2F8FF;
+                    border-radius: 50px;
+                    
+                    /* Inside Auto Layout */
+                    
+                    order: 1;
+                    margin: 0px 16px;
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 24px;
+                    /* identical to box height, or 120% */
+
+
+                    color: #5B62FF;
+                }
+
+                .active {
+                    background: #5B62FF;
+                    color: #FFFFFF;
+                }
+            }
+
+            .name {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 44px;
+                /* identical to box height, or 122% */
+
+
+                color: #1E2A39;
+            }
+
+            .role {
+                margin-top: 16px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+                
+                
+                color: #1E2A39;
+                
+                opacity: 0.6;
+            }
+
+            .skill {
+                margin-top: 12px;
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 160%;
+                /* or 26px */
+                
+                
+                color: #1E2A39;
+            }
+
+            .links {
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 160%;
+                /* identical to box height, or 26px */
+                text-decoration: none;
+                
+                
+                color: #7F31FF;
+            }
+
+            .btn-arrow {
+                border-radius: 100px;
+                padding: 11px;
+                transition: ease-out 300ms;
+            }
+    
+            .arrow-back,
+            .arrow-next {
+                color: #949698;
+            }
+    
+            .btn-arrow:hover,
+            .btn-arrow:focus {
+                color: #f9faff;
+                background-color: #8f00ff;
+                box-shadow: 0px 15px 24px rgba(175, 72, 255, 0.27);
+            }
+
+            .talent-list {
+                margin-top: 90px;
+              }
+        
+              .talent-list .image-placeholder {
+                width: 180px;
+                height: 225px;
+                border-radius: 8px;
+              }
+        
+              .talent-list .image-placeholder {
+                object-fit: cover;
+              }
+        
+              .talent-list .image-placeholder a.badge-username {
+                    text-align: center;
+                    border: none;
+                    border-radius: 50px;
+                    background-color: #7f31ff;
+                    padding: 8px 14px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    text-decoration: none;
+                    bottom: 0;
+                    margin-top: -25px;
+                    max-width: 125px;
+                    text-overflow: ellipsis;
+                    box-shadow: 0px 15px 24px rgba(175, 72, 255, 0.24);
+              }
+        
+              @media (max-width: 765px) {
+                .shayna-talent ul.nav.nav-tabs {
+                  width: 100%;
+                }
+        
+                .shayna-talent p {
+                  width: auto;
+                }
+        
+                .user-profile-picture {
+                  width: 100%;
+                }
+        
+                .user-profile p {
+                  width: auto;
+                }
+        
+                .talent-list .image-placeholder a.badge-username {
+                  margin-bottom: 0;
+                  margin-left: 0;
+                }
+        
+                .talent-list .image-placeholder {
+                  width: 170px;
+                  height: auto;
+                }
+              }
+        }
+    }
+}
